@@ -1,0 +1,22 @@
+# Ambiente Virtual do Python
+venv/
+.venv/
+env/
+
+# Arquivos gerados pelo Python (Compilados)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Imagens de saída (Resultados do seu processamento)
+# Evita poluir o Git com centenas de sprites recortados
+dataset/output/
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos do Sistema Operacional (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
